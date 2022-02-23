@@ -1,0 +1,33 @@
+.buttonCont {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.labelCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+
+.fileChoice {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+    font-size: .90rem;
+    font-weight: 600;
+    border: 1px solid #0C2427;
+    background-color: #FDF1E7;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    border-radius: 12px;
+}

@@ -1,0 +1,85 @@
+.rollContainer {
+    display: flex;
+    justify-content: center;
+    margin: 25px auto 0px auto;
+    width: 60%;
+}
+
+.rollDice {
+    margin: auto;
+    padding: 7.5px;
+    width: 50%;
+    background-color: #FDF1E7;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: 1px solid #0C2427;
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.rollDice:hover {
+    background-color: #A01C32;
+    color: #FDF1E7;
+    border: 1px solid #0C2427;
+    box-shadow: inset 3px 3px 3px black;
+}
+
+.numberContainer {
+    margin: 0px auto 0px 10px;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    background-color: #0C2427;
+    box-shadow: 3px 3px 3px black;
+}
+
+.numberContainer h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+    color: #FDF1E7;
+}
+
+.numberContainer span {
+    color:#A01C32;
+}
+
+/* Media Query Section */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .rollContainer .rollDice {
+        width: 50%;
+    }
+
+    .rollContainer{
+        width: 100%;
+    }
+
+    .numberContainer {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+        padding: 5px;
+    }
+
+    .numberContainer h3 {
+        font-size: 1.1rem;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 992px ) {
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up)  */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  }
+  

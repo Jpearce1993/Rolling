@@ -1,0 +1,137 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  font-size: 18px;
+  background-image: url('../../Images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.App {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.Dice {
+  box-shadow: 3px 3px 3px black;
+}
+
+.mainContainer {
+  margin: auto;
+}
+
+.trackerContainer {
+  margin: auto;
+}
+
+.selectionContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* Media Query Section */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    background-image: url('../../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    /* background-color: red;  */
+    overflow: auto;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .mainContainer {
+    order: 1;
+    margin-bottom: 50px;
+  }
+
+  .selectionContainer {
+    order: 2;
+    margin-bottom: 50px;
+  }
+
+  .trackerContainer {
+    order: 3;
+    margin-bottom: 50px;
+  }
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .App {
+    margin: 0px;
+  }
+
+  body{
+    background-image: url('../../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    /* background-color: yellow; */
+    overflow: auto;
+  }
+
+  .mainContainer {
+    margin: 0px 30px 0px 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px ) {
+  .App {
+    margin: 0px;
+  }
+  
+  body{
+    background-image: url('../../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    /* background-color: blue; */
+    overflow: auto;
+  }
+
+  .mainContainer {
+    margin: 0px 30px 0px 50px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .App {
+    margin: 100px 0px;
+  }
+
+  body{
+    background-image: url('../../Images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    /* background-color: green; */
+    overflow: auto;
+  }
+
+  .mainContainer {
+    margin: 0px 50px;
+  }
+}
